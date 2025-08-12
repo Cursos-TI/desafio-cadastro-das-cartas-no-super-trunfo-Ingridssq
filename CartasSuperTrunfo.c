@@ -10,11 +10,19 @@ int populacao2;
 int Turistico1;
 int Turistico2;
 float area1, area2, PIB1, PIB2;
+float Densidade1;
+float Densidade2;
+float PIBPC1;
+float PIBPC2;
 
+
+
+
+//DADOS DA CARTA 2 
 printf("dados da carta 1 \n");
 
 printf("digite seu estado: ");
-scanf("%c", &estado1);
+scanf(" %c", &estado1);
 
 printf("digite seu codigo: ");
 scanf("%s", &codigo1);
@@ -34,9 +42,11 @@ scanf("%f", &PIB1);
 printf("digite o numero de pontos turisticos: ");
 scanf("%d", &Turistico1);
 
+printf("Densidade Populacional: ");
+scanf("%d", &Densidade1);
 
 
-
+//DADOS DA CARTA 2 
 printf("dados da carta 2 \n");
 
 printf("digite seu estado: ");
@@ -57,10 +67,9 @@ scanf("%f", &area2);
 printf("digite o PIB: ");
 scanf("%f", &PIB2);
 
-printf("digite o numero de pontos turisticos: ");
-scanf("%d", &Turistico2);
 
 
+//RESULTADO DA CARTA 1 
 printf("carta 1 \n");
 
 printf("Estado: %c \n", estado1);
@@ -72,6 +81,7 @@ printf("PIB: %f \n", PIB1);
 printf("Número de Pontos Turísticos: %d \n", Turistico1);
 
 
+//RESULTADO DA CARTA 2
 
 printf("carta 2 \n");
 
@@ -82,6 +92,7 @@ printf("Populacao: %d \n", populacao2);
 printf("Área: %f \n", area2);
 printf("PIB: %f \n", PIB2);
 printf("Número de Pontos Turísticos: %d \n", Turistico2);
+
 
 
 return 0;
